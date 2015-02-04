@@ -1,0 +1,40 @@
+.call-to-action-container{
+	background-color: $primary-color;
+    color: #fff;
+    padding:50px 0;
+    text-align:left;
+	.call-to-action{
+		@include grid-row();
+        h2{
+            text-transform: uppercase;
+            color: #fff;
+            font-size: rem-calc(30);
+             text-align:left;
+            font-family: open_sansbold;
+            margin:0;
+        }
+        .sub-heading{
+            margin:0;
+            font-size: rem-calc(14);
+        }
+	}
+    
+    .call-to_0{
+        @include grid-column(1);
+        span:before{
+            font-size: rem-calc(60);
+            padding-top:10px;
+            margin-left:0;
+        }
+    }
+    .call-to_1{
+        @include grid-column(8);
+    }
+    .call-to_2{
+        @include grid-column(3);
+        .button{
+            width: 100%;
+            text-transform: uppercase;
+        }
+    }
+}

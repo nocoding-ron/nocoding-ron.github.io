@@ -1,0 +1,7 @@
+section.portfolio-container{
+	background-color: $secondary-color;
+    padding:50px 0;
+	.portfolio{
+		@include grid-row();
+	}
+}

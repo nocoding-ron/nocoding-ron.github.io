@@ -1,0 +1,5 @@
+
+.icon-user-add:before { content: '\e800'; } /* '' */
+.icon-download:before { content: '\e801'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
+.icon-angle-double-down:before { content: '\e803'; } /* '' */

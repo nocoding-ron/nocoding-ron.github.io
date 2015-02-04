@@ -1,0 +1,24 @@
+.testimonial-container{
+    @include grid-row();
+    padding:50px 0;
+    .testimonial{
+             @include grid-column(11, $center:true);
+            text-align: center;
+        .slick-slider{
+            margin-top: 50px;
+        }
+        .author{
+            font-style: italic;
+            font-family: 'open_sansregular';
+        }
+        .rating{
+            color: #ffd700;
+        }
+    }
+    .slick-dots {
+        margin-left:0;
+            li button:before{
+            font-size: 14px;
+            }
+    }
+}

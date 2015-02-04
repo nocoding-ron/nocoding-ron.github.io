@@ -1,0 +1,44 @@
+.main-banner-container{
+    background:url(/images/main-banner.jpg);
+    background-size: cover;
+    background-position:center;
+    padding:50px 0;
+    .main-banner{
+        @include grid-row();
+        text-align: center;
+        color: #fff;
+        position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+        h2{
+            color: #fff;
+            font-size: rem-calc(60);
+            span{
+                font-weight: bold;
+            }
+        }
+        p{
+            font-size: rem-calc(20);
+        }
+    }
+    .banner-content{
+        @include grid-column(8, $center:true);
+        padding-bottom:25px;
+    }
+
+    .move-down{
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        padding: 30px 13px 12px;
+
+        &:before{
+            margin-left: 0;
+            margin-right: 0;
+            font-size: rem-calc(40);
+        }
+    }
+}
