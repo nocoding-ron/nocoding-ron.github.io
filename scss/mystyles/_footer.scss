@@ -41,6 +41,9 @@ footer{
 
 	.contact-map{
 		@include grid-column(7);
+		#contact-map{
+			height: 100%;
+		}
 	}
 
 	.copyright-container{

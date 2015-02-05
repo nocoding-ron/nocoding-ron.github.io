@@ -9201,6 +9201,8 @@ footer .contact-map {
   padding-right: 0.9375rem;
   width: 58.3333333333%;
   float: left; }
+  footer .contact-map #contact-map {
+    height: 100%; }
 footer .copyright-container {
   background-color: #303030;
   padding: 20px; }
