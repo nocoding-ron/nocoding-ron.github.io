@@ -8936,12 +8936,14 @@ a {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
-    float: left; }
+    float: left;
+    padding: 50px 0 50px 12%; }
   .about-container .profile-info {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
-    float: left; }
+    float: left;
+    padding: 50px 12% 50px 20px; }
  }
 
 @media only screen and (max-width: 40em) {
