@@ -21,7 +21,7 @@ footer{
 
 	}
 	.contact-form{
-		@include grid-column(5);
+		@include grid-column(12);
 		text-align: left;
 		textarea{
 			height: 215px;
@@ -40,7 +40,7 @@ footer{
 	}
 
 	.contact-map{
-		@include grid-column(7);
+		@include grid-column(12);
 		#contact-map{
 			height: 100%;
 		}
@@ -61,6 +61,18 @@ footer{
 			padding: 10px;
 			margin:0;
 			font-size: 12px;
+		}
+	}
+}
+
+
+@media #{$medium-up} { 
+	footer{
+		.contact-map{
+			@include grid-column(7);
+		}
+		.contact-form{
+			@include grid-column(5);
 		}
 	}
 }

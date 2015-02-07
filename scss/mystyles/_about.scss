@@ -7,7 +7,7 @@
        display: table;
     }
     .profile{
-        @include grid-column(6);
+        @include grid-column(12);
         padding:50px 0 50px 12%;
         text-align: center;
         .author{
@@ -17,7 +17,7 @@
         }
     }
     .profile-info{
-        @include grid-column(6);
+        @include grid-column(12);
         background-color: rgba(0, 0, 0, 0.5);
         padding:50px 12% 50px 20px;
     }
@@ -26,5 +26,29 @@
         &.hire{
             margin-right: rem-calc(15);
         }
+    }
+}
+
+
+@media #{$medium-up} { 
+    .about-container{
+       .profile{
+            @include grid-column(6);
+        }
+       .profile-info{
+            @include grid-column(6);
+       }
+    }
+}
+
+@media #{$small-only} {
+     .about-container{
+       .profile{
+           padding:50px 0 50px 0;
+        }
+       .profile-info{
+            padding:50px 0 50px 0;
+            text-align: center;
+       }
     }
 }

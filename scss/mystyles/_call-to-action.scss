@@ -20,7 +20,7 @@
 	}
     
     .call-to_0{
-        @include grid-column(1);
+        @include grid-column(12);
         span:before{
             font-size: rem-calc(60);
             padding-top:10px;
@@ -28,13 +28,51 @@
         }
     }
     .call-to_1{
-        @include grid-column(8);
+        @include grid-column(12);
     }
     .call-to_2{
-        @include grid-column(3);
+        @include grid-column(12);
         .button{
             width: 100%;
             text-transform: uppercase;
         }
     }
+}
+
+@media #{$medium-up} {
+    .call-to-action-container{
+        .call-to_0{
+            @include grid-column(1);
+        }
+        .call-to_1{
+            @include grid-column(8);
+        }
+        .call-to_2 {
+            @include grid-column(3);
+        }
+    }
+
+}
+
+@media #{$small-only} {
+    .call-to-action-container{
+        .call-to-action{
+            .sub-heading{
+                margin-bottom: 20px;
+            }
+        }
+        .call-to_0{
+           text-align: center;
+        }
+        .call-to_1{
+            text-align: center;
+            h2{
+                text-align: center;
+            }
+        }
+        .call-to_2 {
+            text-align: center;
+        }
+    }
+
 }

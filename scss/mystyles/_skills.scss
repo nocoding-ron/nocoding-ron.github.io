@@ -11,7 +11,7 @@
         @include grid-column(12);
     }
     .myskills{
-        @include block-grid(3);
+        @include block-grid(1);
     }
 }
 
@@ -87,4 +87,13 @@
     line-height:35px;
     color:#ffffff;
     color:rgba(0, 0, 0, 0.4);
+}
+
+
+@media #{$medium-up} { 
+    .skills-container{
+        .myskills{
+            @include block-grid(3);
+        }
+    }
 }
