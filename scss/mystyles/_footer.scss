@@ -18,6 +18,9 @@ footer{
 
 			margin-bottom: 50px;
 		}
+		.sub-heading{
+			@include grid-column(12);
+		}
 
 	}
 	.contact-form{

@@ -8868,7 +8868,7 @@ a {
       .main-banner-container .main-banner h2 span {
         font-weight: bold; }
     .main-banner-container .main-banner p {
-      font-size: 1.25rem; }
+      font-size: 1.3125rem; }
   .main-banner-container .banner-content {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -8889,7 +8889,7 @@ a {
   .main-banner-container .banner-content {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 66.6666666667%;
+    width: 83.3333333333%;
     float: left;
     margin-left: auto;
     margin-right: auto;
@@ -9257,6 +9257,11 @@ footer .contact-container {
     footer .contact-container h2 span {
       color: #fff;
       border: 2px solid #fff; }
+  footer .contact-container .sub-heading {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left; }
 footer .contact-form {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;

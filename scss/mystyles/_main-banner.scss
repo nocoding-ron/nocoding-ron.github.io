@@ -21,7 +21,7 @@
             }
         }
         p{
-            font-size: rem-calc(20);
+            font-size: rem-calc(21);
         }
     }
     .banner-content{
@@ -46,7 +46,7 @@
 @media #{$medium-up}{
     .main-banner-container{
         .banner-content{
-             @include grid-column(8, $center:true);
+             @include grid-column(10, $center:true);
         }
     }
 }
