@@ -24,6 +24,7 @@ module.exports = function(grunt) {
         tasks: ['sass']
       }
     }
+
   });
 
   grunt.loadNpmTasks('grunt-sass');

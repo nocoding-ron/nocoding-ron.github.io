@@ -8842,7 +8842,8 @@ a {
   background: url(/images/main-banner.jpg);
   background-size: cover;
   background-position: center;
-  padding: 50px 0; }
+  padding: 50px 0;
+  height: 100vh; }
   .main-banner-container .main-banner {
     width: 100%;
     margin-left: auto;

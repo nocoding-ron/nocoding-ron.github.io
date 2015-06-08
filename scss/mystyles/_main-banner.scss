@@ -3,6 +3,7 @@
     background-size: cover;
     background-position:center;
     padding:50px 0;
+    height: 100vh;
     .main-banner{
         @include grid-row();
         text-align: center;
