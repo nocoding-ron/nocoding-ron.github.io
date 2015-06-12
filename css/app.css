@@ -8839,7 +8839,7 @@ a {
   max-width: 978px; }
 
 .main-banner-container {
-  background: url(/images/main-banner.jpg);
+  background: url(/images/main-banner.jpg) #03a9f4;
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -9237,7 +9237,7 @@ section.portfolio-container {
  }
 
 footer .contact-bg {
-  background: url(/images/contact-bg.jpg);
+  background: url(/images/contact-bg.jpg) #03a9f4;
   background-size: cover;
   background-position: center;
   padding: 50px 0; }

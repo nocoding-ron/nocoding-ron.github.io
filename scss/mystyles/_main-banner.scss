@@ -1,5 +1,5 @@
 .main-banner-container{
-    background:url(/images/main-banner.jpg);
+    background:url(/images/main-banner.jpg) #03a9f4;
     background-size: cover;
     background-position:center;
     padding:50px 0;
@@ -9,7 +9,7 @@
         text-align: center;
         color: #fff;
         position: relative;
-      top: 50%;
+        top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
