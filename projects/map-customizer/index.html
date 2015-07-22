@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Creator</title>
+    <meta name="description" content="Customize google map all you want.">
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="../../bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+      <aside class="small-3 columns">
+
+        <form>
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <label>Search Location</label>
+              <input type="text" placeholder="">
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="large-12 columns">
+              <label>Feature
+                <select>
+                    <option>water</option>
+                    <option>landscape</option>
+                    <option>landscape.man_made</option>
+                    <option>landscape.natural</option>
+                    <option>road</option>
+                    <option>road.highway</option>
+                    <option>road.arterial</option>
+                    <option>road.local</option>
+                    <option>poi</option>
+                    <option>poi.park</option>
+                    <option>poi.business</option>
+                    <option>poi.attraction</option>
+                    <option>poi.medical</option>
+                    <option>poi.school</option>
+                    <option>poi.government</option>
+                    <option>poi.place_of_worship</option>
+                    <option>administrative</option>
+                    <option>administrative.country</option>
+                    <option>administrative.land_parcel</option>
+                    <option>administrative.locality</option>
+                    <option>administrative.neighborhood</option>
+                    <option>administrative.province</option>
+                    <option>transit</option>
+                    <option>all</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="large-12 columns">
+              <label>Element
+                <select>
+                    <option>all</option>
+                    <option>geometry</option>
+                    <option>geometry.fill</option>
+                    <option>geometry.stroke</option>
+                    <option>labels</option>
+                    <option>labels.icon</option>
+                    <option>labels.text</option>
+                    <option>labels.text.fill</option>
+                    <option>labels.text.stroke</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="large-12 columns">
+              <label>Visibility
+                <select>
+                  <option>on</option>
+                  <option>simplified</option>
+                  <option>off</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-12 columns">
+                <label>Color</label>
+              <input type="text" placeholder="#000">
+            </div>
+          </div>
+          <div class="row collapse">
+              <div class="range-slider" data-slider>
+               <span class="range-slider-handle" role="slider" tabindex="0"></span>
+               <span class="range-slider-active-segment"></span>
+               <input type="hidden">
+             </div>
+        </div>
+        </form>
+
+      </aside>
+      <main class="small-9 columns">
+          <div id="myMap"></div>
+      </main>
+  <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDYj-l7uc5HlebMqbeK5dbw43DeFBe45Xk"></script>
+  <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>

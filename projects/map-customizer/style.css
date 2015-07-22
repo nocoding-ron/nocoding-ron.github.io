@@ -1,0 +1,19 @@
+#myMap{
+    width: 100%;
+    height: 100vh;
+}
+
+aside{
+    background-color: #212121;
+    height: 100vh;
+    padding-top: 50px;
+    color: #fff;
+}
+
+aside label {
+    color: #fff;
+}
+main{
+    padding:0 !important;
+    margin:0 !important;
+}
